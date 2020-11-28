@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ns-label-operator:
+  - apiVersion: v2
+    appVersion: 0.4.12
+    created: "2020-11-28T12:46:18.083077-08:00"
+    description: Kubernetes namespace label operator
+    digest: f063fae2cedda01805ab3df0ba706905c9ed2ecf3fe9fecd013a646104daeea5
+    name: ns-label-operator
+    type: application
+    urls:
+    - https://charts.chmarny.dev/ns-label-operator-0.4.12.tgz
+    version: 0.4.12
+generated: "2020-11-28T12:46:18.08243-08:00"
