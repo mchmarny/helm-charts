@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+# Helm Charts by Mark Chmarny
 
-You can use the [editor on GitHub](https://github.com/mchmarny/helm-charts/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+* [ns-label-operator](https://github.com/mchmarny/ns-label-operator/tree/main/chart) - Operator that applies custom deployments into namespace when it is labeled with a specific label. For example, create a Zipkin trace exporter when a namespace is labeled with `export-traces=true`. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Disclaimer
 
-### Markdown
+This is my personal project and it does not represent my employer. While I do my best to ensure that everything works, I take no responsibility for issues caused by this code.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## License
 
-```markdown
-Syntax highlighted code block
+This software is released under the [MIT](../LICENSE)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mchmarny/helm-charts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
